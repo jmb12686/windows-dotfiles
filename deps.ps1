@@ -1,6 +1,4 @@
-# TODO: Add VSCode settings and extensions!!
-#TODO: install ubuntu from app store
-#TODO install the rest of windows microsoft store apps
+# TODO: Add VSCode settings import
 
 
 # Check to see if we are currently running "as Administrator"
@@ -50,11 +48,6 @@ if (!(Verify-Elevated)) {
  choco install adobereader         --limit-output
  choco install 7zip.install        --limit-output
  choco install putty.install       --limit-output
-
-
-
- 
-
  
  Refresh-Environment
  
