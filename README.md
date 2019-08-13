@@ -24,6 +24,3 @@ Powershell scripts to setup Windows 10 configuration settings and install / setu
 
 ## WSL (Windows Subsystem for Linux)
 * Ubuntu 18.04
-
-
- to softwareConfiguration and setup Windows settings, defaults, and developer centric tools for Powershell scripts
