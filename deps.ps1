@@ -25,29 +25,30 @@ if (!(Verify-Elevated)) {
  }
  
  # programming languages system and cli
- choco install curl                --limit-output
- choco install git.install         --limit-output -params '"/GitAndUnixToolsOnPath /NoShellIntegration"'
- choco install nvm.portable        --limit-output
- choco install python              --limit-output
- choco install golang              --limit-output
+ choco install curl                            --limit-output
+ choco install git.install                     --limit-output -params '"/GitAndUnixToolsOnPath /NoShellIntegration"'
+ choco install nvm.portable                    --limit-output
+ choco install python                          --limit-output
+ choco install golang                          --limit-output
 
  # browsers
- choco install GoogleChrome        --limit-output; choco pin add --name GoogleChrome        --limit-output
- choco install Firefox             --limit-output; choco pin add --name Firefox             --limit-output
+ choco install GoogleChrome                    --limit-output; choco pin add --name GoogleChrome        --limit-output
+ choco install Firefox                         --limit-output; choco pin add --name Firefox             --limit-output
  
  # dev tools and frameworks
- choco install vscode              --limit-output; choco pin add --name vscode              --limit-output
- choco install sublimetext3        --limit-output
- choco install docker-desktop      --limit-output; choco pin add --name docker-desktop      --limit-output
+ choco install vscode                          --limit-output; choco pin add --name vscode              --limit-output
+ choco install sublimetext3                    --limit-output
+ choco install docker-desktop                  --limit-output; choco pin add --name docker-desktop      --limit-output
  
 
 # general utilities
- choco install openvpn             --limit-output
- choco install vlc                 --limit-output
- choco install yarn                --limit-output
- choco install adobereader         --limit-output
- choco install 7zip.install        --limit-output
- choco install putty.install       --limit-output
+choco install microsoft-windows-terminal       --limit-output
+choco install openvpn                          --limit-output
+ choco install vlc                             --limit-output
+ choco install yarn                            --limit-output
+ choco install adobereader                     --limit-output
+ choco install 7zip.install                    --limit-output
+ choco install putty.install                   --limit-output
  
  Refresh-Environment
  
