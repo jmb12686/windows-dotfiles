@@ -83,27 +83,20 @@ choco install openvpn                          --limit-output
 
  ### Install VS Code Extensions
  Write-Host "Installing VS Code Extensions" -ForegroundColor "Yellow"
- code --install-extension christian-kohler.npm-intellisense
- code --install-extension eg2.vscode-npm-script
- code --install-extension ms-azuretools.vscode-docker
- code --install-extension ms-vscode-remote.remote-containers
- code --install-extension ms-vscode-remote.remote-ssh
- code --install-extension ms-vscode-remote.remote-ssh-edit
- code --install-extension ms-vscode-remote.remote-ssh-explorer
- code --install-extension ms-vscode-remote.remote-wsl
- code --install-extension ms-vscode-remote.vscode-remote-extensionpack
- code --install-extension ms-vscode.Go
- code --install-extension ms-vscode.powershell
- code --install-extension ms-vscode.vscode-typescript-tslint-plugin
- code --install-extension redhat.java
- code --install-extension VisualStudioExptTeam.vscodeintellicode
- code --install-extension vscjava.vscode-java-debug
- code --install-extension vscjava.vscode-java-dependency
- code --install-extension vscjava.vscode-java-pack
- code --install-extension vscjava.vscode-java-test
- code --install-extension vscjava.vscode-maven
- code --install-extension vscjava.vscode-spring-initializr
- 
+code --install-extension christian-kohler.npm-intellisense
+code --install-extension eg2.vscode-npm-script
+code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.code-runner
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension ms-vscode-remote.remote-ssh-edit
+code --install-extension ms-vscode-remote.remote-ssh-explorer
+code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+code --install-extension ms-vscode.Go
+code --install-extension ms-vscode.powershell
+code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 
  ### Install WSL Ubuntu LTS Distro
  Write-Host "Installing Ubuntu WSL Distro" -ForegroundColor "Yellow"
