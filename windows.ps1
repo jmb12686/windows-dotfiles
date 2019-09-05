@@ -1,11 +1,8 @@
 # Check to see if we are currently running "as Administrator"
-if (!(Verify-Elevated)) {
-   $newProcess = new-object System.Diagnostics.ProcessStartInfo "PowerShell";
-   $newProcess.Arguments = $myInvocation.MyCommand.Definition;
-   $newProcess.Verb = "runas";
-   [System.Diagnostics.Process]::Start($newProcess);
-
-   exit
+if (!(New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+    Write-Error "Not in Administrator shell, please run as elevated user....."
+    exit
+    
 }
 
 ###############################################################################
