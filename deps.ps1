@@ -39,16 +39,20 @@ if (!(Verify-Elevated)) {
  choco install vscode                          --limit-output; choco pin add --name vscode              --limit-output
  choco install sublimetext3                    --limit-output
  choco install docker-desktop                  --limit-output; choco pin add --name docker-desktop      --limit-output
+ choco install awscli                          --limit-output
+ 
  
 
 # general utilities
-choco install microsoft-windows-terminal       --limit-output
-choco install openvpn                          --limit-output
+ choco install microsoft-windows-terminal      --limit-output
+ choco install openvpn                         --limit-output
  choco install vlc                             --limit-output
  choco install yarn                            --limit-output
  choco install adobereader                     --limit-output
  choco install 7zip.install                    --limit-output
  choco install putty.install                   --limit-output
+ choco install sysinternals                    --limit-output
+ choco install openssh                         --limit-output
  
  Refresh-Environment
  
