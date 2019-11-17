@@ -1,12 +1,16 @@
 # John Belisle's dotfiles for Windows
+
 Powershell scripts to setup Windows 10 configuration settings and install / setup developer centric tools.  Chocolatey package manager is utilized to install:
+
 ## Languages
+
 * nodejs
 * python
 * Go
 
 ## Tools
-* git 
+
+* git
 * curl
 * nvm
 * VS Code
@@ -19,8 +23,10 @@ Powershell scripts to setup Windows 10 configuration settings and install / setu
 * Putty
 
 ## Browsers
+
 * Google Chrome
 * Firefox
 
 ## WSL (Windows Subsystem for Linux)
+
 * Ubuntu 18.04
