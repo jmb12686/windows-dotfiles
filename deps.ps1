@@ -83,20 +83,23 @@ if (!(New-Object Security.Principal.WindowsPrincipal([Security.Principal.Windows
 
  ### Install VS Code Extensions
  Write-Host "Installing VS Code Extensions" -ForegroundColor "Yellow"
-code --install-extension christian-kohler.npm-intellisense
-code --install-extension eg2.vscode-npm-script
-code --install-extension esbenp.prettier-vscode
-code --install-extension formulahendry.code-runner
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension ms-vscode-remote.remote-containers
-code --install-extension ms-vscode-remote.remote-ssh
-code --install-extension ms-vscode-remote.remote-ssh-edit
-code --install-extension ms-vscode-remote.remote-ssh-explorer
-code --install-extension ms-vscode-remote.remote-wsl
-code --install-extension ms-vscode-remote.vscode-remote-extensionpack
-code --install-extension ms-vscode.Go
-code --install-extension ms-vscode.powershell
-code --install-extension ms-vscode.vscode-typescript-tslint-plugin
+ code --install-extension christian-kohler.npm-intellisense
+ code --install-extension DavidAnson.vscode-markdownlint
+ code --install-extension donjayamanne.githistory
+ code --install-extension EditorConfig.EditorConfig
+ code --install-extension eg2.vscode-npm-script
+ code --install-extension esbenp.prettier-vscode
+ code --install-extension formulahendry.code-runner
+ code --install-extension ms-azuretools.vscode-docker
+ code --install-extension ms-vscode-remote.remote-containers
+ code --install-extension ms-vscode-remote.remote-ssh
+ code --install-extension ms-vscode-remote.remote-ssh-edit
+ code --install-extension ms-vscode-remote.remote-wsl
+ code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+ code --install-extension ms-vscode.Go
+ code --install-extension ms-vscode.powershell
+ code --install-extension ms-vscode.vscode-typescript-tslint-plugin
+ code --install-extension VisualStudioExptTeam.vscodeintellicode
 
  ### Install WSL Ubuntu LTS Distro
  Write-Host "Installing Ubuntu WSL Distro" -ForegroundColor "Yellow"
