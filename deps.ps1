@@ -36,6 +36,8 @@ if (!(New-Object Security.Principal.WindowsPrincipal([Security.Principal.Windows
  choco install sublimetext3                    --limit-output
  choco install docker-desktop                  --limit-output; choco pin add --name docker-desktop      --limit-output
  choco install awscli                          --limit-output
+ choco install kubernetes-cli                  --limit-output
+ choco install minikube                        --limit-output
  
  
 
