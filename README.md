@@ -18,6 +18,7 @@ Powershell scripts to setup Windows 10 configuration settings and install / setu
 * Docker Desktop
 * kubectl
 * Minikube
+* Helm
 * OpenVPN
 * VLC
 * yarn

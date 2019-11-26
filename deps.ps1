@@ -38,6 +38,7 @@ if (!(New-Object Security.Principal.WindowsPrincipal([Security.Principal.Windows
  choco install awscli                          --limit-output
  choco install kubernetes-cli                  --limit-output
  choco install minikube                        --limit-output
+ choco install kubernetes-helm                 --limit-output
  
  
 
