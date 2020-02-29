@@ -52,6 +52,8 @@ if (!(New-Object Security.Principal.WindowsPrincipal([Security.Principal.Windows
  choco install putty.install                   --limit-output
  choco install sysinternals                    --limit-output
  choco install openssh                         --limit-output
+ choco install jq                              --limit-output
+ choco install etcher                          --limit-output
  
  Refresh-Environment
  
