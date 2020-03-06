@@ -54,6 +54,7 @@ if (!(New-Object Security.Principal.WindowsPrincipal([Security.Principal.Windows
  choco install openssh                         --limit-output
  choco install jq                              --limit-output
  choco install etcher                          --limit-output
+ choco install powertoys                       --limit-output
  
  Refresh-Environment
  
